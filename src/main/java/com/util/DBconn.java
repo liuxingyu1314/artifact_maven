@@ -10,7 +10,7 @@ import com.entity.User;
 public class DBconn {
 	static String url = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8"; 
 	static String username = "root"; 
-	static String password = "123456"; 
+	static String password = "csd@123"; 
 	static Connection conn = null;
 	static ResultSet rs = null;
 	static PreparedStatement ps =null;
