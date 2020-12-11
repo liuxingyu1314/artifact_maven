@@ -3,6 +3,7 @@
 <html>
   <head>
     <title>登录注册页面</title>
+	<title>添加测试信息</title>
   </head>
   <body >
          <form action="DengluServlet"  method="post"  style="padding-top:-700px;">
