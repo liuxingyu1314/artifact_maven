@@ -49,7 +49,7 @@ public class UserDaoImpl implements UserDao {
 				user.setHome(rs.getString("home"));
 				user.setInfo(rs.getString("info"));
 				list.add(user);
-				//System.out.println(user.getId());				
+				//System.out.println(user.getId());
 			}
 			DBconn.closeConn();
 			return list;
@@ -77,7 +77,7 @@ public class UserDaoImpl implements UserDao {
 	public boolean delete(int id) {
 		boolean flag = false;
 		DBconn.init();
-		String sql = "delete  from user where id="+id;
+		String sql = "delete from user where id="+id;
 		int i =DBconn.addUpdDel(sql);
 		if(i>0){
 			flag = true;

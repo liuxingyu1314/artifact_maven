@@ -11,7 +11,7 @@ import com.dao.UserDao;
 import com.dao.UserDaoImpl;
 import com.entity.User;
 
-public class ZhuceServlet {
+public class ZhuceServlet extends HttpServlet{
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		doPost(request, response);

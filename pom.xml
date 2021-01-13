@@ -4,7 +4,7 @@
   <groupId>com.orange</groupId>
   <artifactId>artifact_maven</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
   <name>artifact_maven Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -22,7 +22,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.22</version>
+      <version>8.0.16</version>
     </dependency>
     <dependency>
       <groupId>jstl</groupId>
@@ -38,7 +38,6 @@
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.0</version>
-      <scope>provided</scope>
     </dependency>     
   </dependencies>
   
